@@ -15,6 +15,6 @@ int main()
         // printf("%d ", arr[i]);
     }
     printf("%d", sum);
-
+    printf("\n");
     return 0;
 }
