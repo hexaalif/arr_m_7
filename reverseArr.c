@@ -10,6 +10,9 @@ int main()
         scanf("%d", &arr[i]);
         // printf("%d ", arr[i]);
     }
+    int x, val;
+    scanf("%d %d", &x, &val);
+    arr[x] = val;
     for (int i = n - 1; i > 0; i--)
     {
         printf("\n%d", arr[i]);
